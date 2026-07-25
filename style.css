@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+  background-color:#010813 ;
+  margin: 0px;
+}
+#navbar{
+  padding:20px 80px;
+  background-color: #151B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+     display: flex;
+    gap: 40px;
+}
+.navlinks a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.navlinks a:hover{
+  color: #3B82F6;
+}
+.navtext{
+  color: #ffffff;
+  font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+}
+#container{
+margin: 60px;
+}
+#hero{
+  display:flex;
+  justify-content: space-between;
+}
+.hero-img img{
+  width: 450px
+}
+.hero-text{
+  color: #ffffff;
+}
+.hero-text h1{
+  color:#3B82F6;
+  font-size: 60px;
+  
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.hero-text h3{
+  color: #b2e0f9;
+  font-size: 30px;
+}
+.hero-text button{
+  padding: 10px;
+  border-radius: 18px;
+}
+.btn1{
+  background-color:#3B82F6 ;
+  border: none;
+  transition: color 0.3s ease;
+}
+.btn2{
+  background: transparent;
+  color: white;
+  border: 1px solid #CBD5E1;
+}
+.btn1:hover{
+  background-color: #0198eb;
+}
+#about-me{
+  padding: 32px;
+  margin-top: 30px;
+  background-color:#1A2235;
+  justify-content: space-between;
+  display: flex;
+  line-height: 1.8;
+  border-radius: 18px;
+}
+#about-me h2{
+  font-size: 32px;
+  text-decoration:underline;
+  color:#0198eb ;
+}
+.about-me-text{
+  width: 40%;
+  color: white;
+}
+.information p{
+  width: 100%;
+  color: white;
+}
+#skills{
+  display: flex;
+  margin-top: 40px;
+  gap: 30px;
+}
+#skills div{
+  width: 30%;
+  background-color: #1D2742;
+  padding: 15px;
+  border-radius: 18px;
+}
+#skills img{
+  width: 100%;
+  display: block;
+}
+#skills h2{
+  color:#0198eb ;
+}
+#skills p{
+  color: #C9D4E5;
+}
+#skills button{
+  background-color: #3B82F6;
+  border: none;
+  border-radius:18px ;
+  padding: 5px;
+}
+#skills button:hover{
+  background-color:#0198eb;
+}
