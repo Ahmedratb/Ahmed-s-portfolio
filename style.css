@@ -39,7 +39,8 @@ margin: 60px;
   justify-content: space-between;
 }
 .hero-img img{
-  width: 450px
+  max-width: 100%;
+  width: 450px;
 }
 .hero-text{
   color: #ffffff;
@@ -50,7 +51,7 @@ margin: 60px;
   
   font-family: "Kode Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 .hero-text h3{
@@ -64,6 +65,7 @@ margin: 60px;
 .btn1{
   background-color:#3B82F6 ;
   border: none;
+  margin-right: 4px;
   transition: color 0.3s ease;
 }
 .btn2{
@@ -83,11 +85,6 @@ margin: 60px;
   line-height: 1.8;
   border-radius: 18px;
 }
-#about-me h2{
-  font-size: 32px;
-  text-decoration:underline;
-  color:#0198eb ;
-}
 .about-me-text{
   width: 40%;
   color: white;
@@ -95,6 +92,25 @@ margin: 60px;
 .information p{
   width: 100%;
   color: white;
+}
+.section-title{
+    color: #3B82F6;
+    font-size: 36px;
+    font-weight: 700px;
+  margin: 50px 0px 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 130px;
+    height: 4px;
+    background-color: #3B82F6;
+    border-radius: 10px;
 }
 #skills{
   display: flex;
@@ -106,6 +122,10 @@ margin: 60px;
   background-color: #1D2742;
   padding: 15px;
   border-radius: 18px;
+  transition: transform 0.3s;
+}
+#skills div:hover{
+  transform: scale(0.95);
 }
 #skills img{
   width: 100%;
@@ -130,8 +150,8 @@ margin: 60px;
 
     #navbar{
         flex-direction: column;
-        gap: 20px;
-        padding: 20px;
+        gap: 10px;
+        padding: 5px;
     }
 
     .navlinks{
@@ -139,7 +159,6 @@ margin: 60px;
         flex-wrap: wrap;
         justify-content: center;
     }
-
     #container{
         margin: 20px;
     }
@@ -188,6 +207,7 @@ margin: 60px;
     #skills div{
         width: 90%;
     }
+
 }
 footer{
     text-align: center;
